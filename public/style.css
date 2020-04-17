@@ -1,0 +1,25 @@
+#starting {
+  height: 0;
+  width: 0;
+  padding: 15px;
+  border: 6px solid #fff;
+  border-right-color: #3f51b5 !important;
+  border-radius: 22px;
+  animation: rotate 1s infinite linear;
+  position: absolute;
+  left: 49%;
+  top: 45%;
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  #starting {
+    left: 45%;
+    top: 45%;
+  }
+}
